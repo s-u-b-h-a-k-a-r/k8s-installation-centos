@@ -162,12 +162,16 @@
 
 
 <a id="dashboard"></a>
+
 ## How to access Kubernetes Dashboard ?
 
 *The ***Kubernetes Dashboard*** can be accessed via the below URL with your ***master node IP*** with the same port ***30070****
+
 [http://100.10.10.100:30070/#!/overview?namespace=_all](http://100.10.10.100:30070/#!/overview?namespace=_all)
 
+
 <a id="nfs-configuration"></a>
+
 ## How to install NFS Server ?
 
 
