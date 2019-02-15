@@ -43,7 +43,7 @@
 <a id="deploy"></a>
 ## How to deploy kubernetes cluster ?
 
-*Checkout the code  (git clone https://github.com/SubhakarKotta/k8s-vagrant.git)* 
+*Checkout the code  (git clone https://github.com/SubhakarKotta/k8s-installation.git)* 
 
 ## ***Step 1***
 
