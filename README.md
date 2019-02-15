@@ -173,8 +173,11 @@
 
 <a id="nfs-configuration"></a>
 ## How to install NFS Server ?
+
 ***Here we are going use *master VM* as *NFS Server* instead of configuring separate VM***
+
 *Execute the below command on only ***master*** node to install ***NFS-Client****
+
 ***Note:** Please don't forget to change **nfs.server** with your **master node IP** configured.*
 
 `$ helm install stable/nfs-client-provisioner --name nfs-client-provisioner --set nfs.server=100.10.10.100 --set nfs.path=/mnt/storage --set storageClass.defaultClass=true`
