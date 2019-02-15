@@ -1,7 +1,3 @@
-
-
-  
-
 # k8s-installation
 ![enter image description here](https://lh3.googleusercontent.com/XLVR6VqsqNEAjfIBec5vSu1ke5e1U7fLGuKvCWZP8R-zsG_9eZRtP8VO4dBVkBPqwEt6WVDp-VQuww)
 ## About...
@@ -29,7 +25,7 @@
 
 ***Note: We are not going to create any VM's during this process. User is expected to have VM's before proceeding with this repository***
 
-*Below is the ***example configuration*** that we are going to refer ***through out the repository***.*
+*Below is the ***example configuration*** that we are going to refer ***through out this repository***.*
 
 *Name*|*IP*|*OS*|*RAM*|*CPU*|
 |----|----|----|----|----|
@@ -156,7 +152,7 @@
 `$ ./install.sh`
 
 ## ***Step 8***
-***Verify k8s-installation is success by executing below to commands to see all the nodes and pods.***
+***Verify k8s-installation is success by executing below two commands to see all the nodes and pods.***
 
 ***Unix Command!!!***
 
@@ -168,17 +164,21 @@
 <a id="dashboard"></a>
 ## How to access Kubernetes Dashboard ?
 
-*The ***Kubernetes Dashboard*** can be accessed via the below URL with you ***master node IP*** with the same port ***30070****
+*The ***Kubernetes Dashboard*** can be accessed via the below URL with your ***master node IP*** with the same port ***30070****
 [http://100.10.10.100:30070/#!/overview?namespace=_all](http://100.10.10.100:30070/#!/overview?namespace=_all)
 
 <a id="nfs-configuration"></a>
 ## How to install NFS Server ?
 
-***Here we are going use *master VM* as *NFS Server* instead of configuring separate VM***
 
-*Execute the below command on only ***master*** node to install ***NFS-Client****
+*Here we are going use master node IP as NFS Server IP instead of configuring separate node.*
 
-***Note:** Please don't forget to change **nfs.server** with your **master node IP** configured.*
+*Execute the below command only on master node IP to install NFS-Client-Provisioner.*
+
+*Note: Please don't forget to change nfs.server in the below unix command with your master node IP configured.*
+
+
+***Unix Command!!!***
 
 `$ helm install stable/nfs-client-provisioner --name nfs-client-provisioner --set nfs.server=100.10.10.100 --set nfs.path=/mnt/storage --set storageClass.defaultClass=true`
 
