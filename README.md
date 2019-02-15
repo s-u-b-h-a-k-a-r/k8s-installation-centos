@@ -3,8 +3,7 @@
   
 
 # k8s-installation
-![enter image description here](https://lh3.googleusercontent.com/u-UVCZJHQiRnsgebzsHX6igGyEBSrwCCqwM9wSgchqnygIIJRtwkYFMaVmWVJdQ4kHKDWMLnQ0QkiQ)
-
+![enter image description here](https://lh3.googleusercontent.com/XLVR6VqsqNEAjfIBec5vSu1ke5e1U7fLGuKvCWZP8R-zsG_9eZRtP8VO4dBVkBPqwEt6WVDp-VQuww)
 ## About...
 
 *This repository is used to create ***Kubernetes Cluster*** using **8** simple steps on ***bare VM's**** 
