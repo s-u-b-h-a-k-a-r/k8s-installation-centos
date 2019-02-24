@@ -56,7 +56,7 @@
 
 ## ***Step 2***
 
-***Copy k8s-installation folder to all master/worker nodes***
+***Copy k8s-installation-centos7 folder to all master/worker nodes***
 
 * `100.10.10.100 (k8s-master)`
 * `100.10.10.101 (k8s-worker-1)`
