@@ -38,7 +38,7 @@
 <a id="deploy"></a>
 ## How to deploy kubernetes cluster ?
 
-*Checkout the code  (git clone https://github.com/SubhakarKotta/k8s-installation.git)* 
+*Checkout the code  (git clone https://github.com/SubhakarKotta/k8s-installation-centos7.git)* 
 
 ## ***Step 1***
 
@@ -67,7 +67,7 @@
 
 ***Unix Command!!!***
 
-`$ chmod +x -R k8s-installation` 
+`$ chmod +x -R k8s-installation-centos7` 
 
 
 ## ***Step 3***
@@ -86,7 +86,7 @@
 
   ***Unix Command!!!***
   
- `$ k8s-installation/provisioning/prerequisites/install.sh`
+ `$ k8s-installation-centos7/provisioning/prerequisites/install.sh`
 
 
 ## ***Step 4***
@@ -110,7 +110,7 @@
 
 ***Unix Command!!!***
 
-`$ cd k8s-installation/provisioning/vm-master`
+`$ cd k8s-installation-centos7/provisioning/vm-master`
 
 `$ ./install.sh`
 
@@ -133,7 +133,7 @@
 
   ***Unix Command!!!***
   
-`$ cd k8s-installation/provisioning/vm-worker`
+`$ cd k8s-installation-centos7/provisioning/vm-worker`
 
 `$ ./install.sh`
 
@@ -147,7 +147,7 @@
 
 ***Unix Command!!!***
 
-`$ cd k8s-installation/provisioning/helm`
+`$ cd k8s-installation-centos7/provisioning/helm`
 
 `$ ./install.sh`
 
