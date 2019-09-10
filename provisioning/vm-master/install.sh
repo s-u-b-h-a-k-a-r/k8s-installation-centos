@@ -25,9 +25,9 @@ kubectl get pods --all-namespaces
 
 
 echo "[TASK 5] Install kubeconfig"
-$ mkdir -p $HOME/.kube
-$ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-$ sudo chown $(id -u):$(id -g) $HOME/.kube/config
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 echo "[TASK 6] Install Dashboard"
 kubectl apply -f kubernetes-dashboard.yaml
